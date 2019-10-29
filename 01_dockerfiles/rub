@@ -1,0 +1,10 @@
+docker-machine start Char
+eval $(docker-machine env Char)
+docker-machine ip Char
+docker build -t ex00 .
+docker run --rm -ti ex00
+
+
+get LInk
+
+https://files.teamspeak-services.com/releases/client/3.3.2/TeamSpeak3-Client-linux_amd64-3.3.2.run
